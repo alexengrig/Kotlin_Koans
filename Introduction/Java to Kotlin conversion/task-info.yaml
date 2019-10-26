@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 56
+    length: 360
     placeholder_text: 'fun toJSON(collection: Collection<Int>): String = TODO()'
     initial_state:
       length: 56
@@ -27,8 +27,8 @@ files:
           sb.append("]")
           return sb.toString()
       }
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     fun toJSON(collection: Collection<Int>): String = TODO()
   learner_created: false
@@ -68,5 +68,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
