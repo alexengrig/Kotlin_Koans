@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 45
-    length: 6
+    length: 22
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 45
     initialized_from_dependency: false
     possible_answer: DateRange(this, other)
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     operator fun MyDate.rangeTo(other: MyDate) = TODO()
 
@@ -52,5 +52,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

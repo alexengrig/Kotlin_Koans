@@ -24,7 +24,7 @@ files:
           }
           override fun hasNext(): Boolean = current <= dateRange.end
       }
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     class DateRange(val start: MyDate, val end: MyDate)
