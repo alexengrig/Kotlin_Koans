@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 58
-    length: 52
+    length: 19
     placeholder_text: //TODO("return the list sorted in descending order")
     initial_state:
       length: 52
       offset: 58
     initialized_from_dependency: false
     possible_answer: .sortedDescending()
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     fun getList(): List<Int> {
         return arrayListOf(1, 5, 2)//TODO("return the list sorted in descending order")
@@ -30,5 +30,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

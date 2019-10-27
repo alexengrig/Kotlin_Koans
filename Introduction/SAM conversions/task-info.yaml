@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 130
-    length: 6
+    length: 5
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 130
     initialized_from_dependency: false
     possible_answer: y - x
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     import java.util.*
 
@@ -35,5 +35,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

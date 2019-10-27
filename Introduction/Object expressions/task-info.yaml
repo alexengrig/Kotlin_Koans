@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 120
-    length: 9
+  - offset: 118
+    length: 88
     placeholder_text: object {}
     initial_state:
       length: 9
@@ -14,8 +14,8 @@ files:
       object : Comparator<Int> {
           override fun compare(x: Int, y: Int) = y - x
       }
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     import java.util.*
 
@@ -38,5 +38,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
