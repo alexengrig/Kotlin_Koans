@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 10
+    length: 5
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 0
     initialized_from_dependency: false
     possible_answer: 'data '
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     /* TODO */class MyDate(val year: Int, val month: Int, val dayOfMonth: Int)
 
@@ -37,5 +37,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
