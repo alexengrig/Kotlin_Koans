@@ -4,25 +4,25 @@ files:
   visible: true
   placeholders:
   - offset: 101
-    length: 6
+    length: 33
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 101
     initialized_from_dependency: false
     possible_answer: customers.map { it.city }.toSet()
-    selected: false
-    status: Unchecked
-  - offset: 226
-    length: 6
+    selected: true
+    status: Solved
+  - offset: 253
+    length: 36
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 226
     initialized_from_dependency: false
     possible_answer: customers.filter { it.city == city }
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     // Return the set of cities the customers are from
     fun Shop.getCitiesCustomersAreFrom(): Set<City> = TODO()
@@ -140,5 +140,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

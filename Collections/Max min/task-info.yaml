@@ -11,7 +11,7 @@ files:
       offset: 135
     initialized_from_dependency: false
     possible_answer: customers.maxBy { it.orders.size }
-    selected: false
+    selected: true
     status: Unchecked
   - offset: 261
     length: 6
