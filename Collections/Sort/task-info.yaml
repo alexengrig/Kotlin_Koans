@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 146
-    length: 6
+    length: 37
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 146
     initialized_from_dependency: false
     possible_answer: customers.sortedBy { it.orders.size }
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     // Return a list of customers, sorted by the ascending number of orders they made
     fun Shop.getCustomersSortedByNumberOfOrders(): List<Customer> = TODO()
@@ -121,5 +121,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
