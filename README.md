@@ -7,4 +7,4 @@ designed to get you familiar with the Kotlin syntax.
 
 ## Status
 
-In progress.
+Completed.
